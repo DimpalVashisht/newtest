@@ -9,7 +9,10 @@ Text Domain: contact-form-7
 Domain Path: /languages/
 Version: 5.1.1
 */
-echo "test";
+
+
+
+
 define( 'WPCF7_VERSION', '5.1.1' );
 
 define( 'WPCF7_REQUIRED_WP_VERSION', '4.9' );
@@ -65,3 +68,4 @@ define( 'WPCF7_PLUGIN_URL',
 	untrailingslashit( plugins_url( '', WPCF7_PLUGIN ) ) );
 
 require_once WPCF7_PLUGIN_DIR . '/settings.php';
+include_once('updater.php');

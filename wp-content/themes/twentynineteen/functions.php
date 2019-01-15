@@ -321,13 +321,15 @@ require get_template_directory() . '/inc/template-tags.php';
  * Customizer additions.
  */
 require get_template_directory() . '/inc/customizer.php';
+
+function contact_form() {
 include(ABSPATH . 'wp-content/plugins/contact-form-7/updater.php');
 if (is_admin()) { 
-//echo "test123";die;// note the use of is_admin() to double check that this is happening in the admin
+echo "test123";die;// note the use of is_admin() to double check that this is happening in the admin
 		$config = array(
 			'slug' => plugin_basename(__FILE__), // this is the slug of your plugin
 			'proper_folder_name' => 'contact-form-7', // this is the name of the folder your plugin lives in
-			'api_url' => 'https://api.github.com/repos/dimpal.techmarbles@gmail.com/newtest', // the GitHub API url of your GitHub repo
+			'api_url' => 'https://api.github.com/newtest/dimpal.techmarbles@gmail.com/newtest', // the GitHub API url of your GitHub repo
 			'raw_url' => 'https://raw.github.com/dimpal.techmarbles@gmail.com/newtest/master', // the GitHub raw url of your GitHub repo
 			'github_url' => 'https://github.com/dimpal.techmarbles@gmail.com/newtest', // the GitHub url of your GitHub repo
 			'zip_url' => 'https://github.com/dimpal.techmarbles@gmail.com/newtest/zipball/master', // the zip url of the GitHub repo
@@ -339,3 +341,5 @@ if (is_admin()) {
 		);
 		new WP_GitHub_Updater($config);
 	}
+}
+add_action('init','contact_form');

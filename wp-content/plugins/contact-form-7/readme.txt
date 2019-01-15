@@ -8,6 +8,7 @@ Tested up to: 5.0
 Stable tag: 5.1.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
+~Current Version:1.4~
 
 Just another contact form plugin. Simple but flexible.
 
