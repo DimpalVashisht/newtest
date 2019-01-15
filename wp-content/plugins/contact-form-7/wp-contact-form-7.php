@@ -19,9 +19,14 @@ Version: 5.1.1
 
 // >>>>>>> 803b2fd9a086c2f631425601c09cac515901beb4
 
+<<<<<<< HEAD
 echo "dimpalvashisht";
 // >>>>>>> 803b2fd9a086c2f631425601c09cac515901beb4
 // >>>>>>> ffbaf2addb9ed002ea2752965df0b278c59257b1
+=======
+echo "dimpalsharma";
+
+>>>>>>> b35c7a53afdbe06c3b0da6b2be72e047718fc0de
 define( 'WPCF7_VERSION', '5.1.1' );
 
 define( 'WPCF7_REQUIRED_WP_VERSION', '4.9' );
