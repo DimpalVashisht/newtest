@@ -9,10 +9,14 @@ Text Domain: contact-form-7
 Domain Path: /languages/
 Version: 5.1.1
 */
+<<<<<<< HEAD
 
 
 
 
+=======
+echo "test122345";
+>>>>>>> 803b2fd9a086c2f631425601c09cac515901beb4
 define( 'WPCF7_VERSION', '5.1.1' );
 
 define( 'WPCF7_REQUIRED_WP_VERSION', '4.9' );
