@@ -1,4 +1,5 @@
 === Contact Form 7 ===
+~Current Version:1.4~
 Contributors: takayukister
 Donate link: https://contactform7.com/donate/
 Tags: contact, form, contact form, feedback, email, ajax, captcha, akismet, multilingual
