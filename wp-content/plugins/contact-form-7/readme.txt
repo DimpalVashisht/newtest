@@ -5,10 +5,10 @@ Donate link: https://contactform7.com/donate/
 Tags: contact, form, contact form, feedback, email, ajax, captcha, akismet, multilingual
 Requires at least: 4.9
 Tested up to: 5.0
-Stable tag: 5.1.1
+Stable tag: 5.1.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
-~Current Version:1.4~
+~Current Version:1.1~
 
 Just another contact form plugin. Simple but flexible.
 
